@@ -1,0 +1,39 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+p {
+    color:white;
+    font-weight: bold;
+}
+
+nav.navContainer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    height: 7vh;
+    background-color: navy;
+}
+div.Logo {
+    padding-left:13px;
+}
+div.menu {
+    display:flex;
+    justify-content: space-between;
+}
+div.menu p:hover {
+    background-color: orange;
+}
+
+div.sns {
+    display:flex;
+    justify-content: flex-end;
+}
+div.sns p {
+    margin:18px 13px 18px 13px;
+}
+div.navitem {
+    position: relative;
+    width:33%;
+}

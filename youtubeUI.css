@@ -1,0 +1,128 @@
+html, body, h2, p {
+    margin:0;
+    padding:0;
+}
+h2 {
+    color:white;
+    font-size:20px;
+}
+.navContainer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width:100vw;
+    height: 8vh;
+}
+.navLogo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoImage {
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 10px;
+    color:red;
+}
+.menuIcon,.searchIcon {
+    color:white;
+    margin-right:20px;
+}
+.navIcons {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width:20%;
+    height:100%;
+    display:flex;
+}
+.videoSection {
+    width:100vw;
+    height:26vh;
+}
+video {
+    position: relative;
+    margin:0;
+    padding:0;
+    height: 100%;
+    width:100vw;
+}
+.description {
+    border: 1px solid rgba(220,220,220,0.9);
+}
+.hashTagDiv {
+    padding:10px;
+    
+}
+.hashTagDiv>p {
+    color: blue;
+    font-size:12px;
+}
+.title {
+    padding:5px 12px;
+}
+.title>p {
+    font-size: 18px;
+}
+.postingDate {
+    padding:5px 12px;
+}
+.postingDate>p{
+    font-size: 5px;
+    color:slategrey;
+}
+.funcButton {
+    position: relative;
+    width:100%;
+    height: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.funcButton>i {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    /* border: 1px solid rgba(220,220,220,0.9); */
+}
+.funcButton>i:hover {
+    color:blue;
+}
+.author {
+    position: relative;
+    display:flex;
+    align-items: center;
+    height: 40px;
+    padding:0 10px;
+    border-bottom: 1px solid rgba(220,220,220,0.9);
+}
+.authorPhoto {
+    position: relative;
+    background-image: url(./testPhoto.jpg);
+    background-size: 100%;
+    background-repeat:round;
+    border-radius: 10px;
+    width:25px;
+    height: 65%;
+    margin-right: 5px;
+}
+.author>p.name {
+    font-weight: bold;
+}
+.temp {
+    display:flex;
+    justify-content: flex-end;
+    position: relative;
+    width:100%;
+}
+.temp>p.subscribe {
+    font-weight: bold;
+    color:red;
+}

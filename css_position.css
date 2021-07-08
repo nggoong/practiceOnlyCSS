@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    padding:0;
+}
+div.item {
+    position: relative;
+    width:100px;
+    height:100px;
+    background-color: red;
+    border-radius: 20px;
+    margin:0 0 10px 0;
+    left:60px;
+}
+div.container {
+    background-color: yellow;
+    position: absolute;
+    width:80%;
+    height:50%;
+}
+div.item.test {
+    position: absolute;
+    background-color: blue;
+    left:50%;
+    top:50%;
+}
+div.smallitem {
+    position: relative;
+    left:20%;
+    background-color: green;
+    width:30px;
+    height: 30px;
+}
